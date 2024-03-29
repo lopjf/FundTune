@@ -11,7 +11,8 @@ const Landing = () => {
         </div>
         <div id="image">
           <div id="shader"></div>
-          <img id="act-img" src={bground} alt="background" />
+          <div id="img-cont"><img id="act-img" src={bground} alt="background" /></div>
+          
           <div id="shape"></div>
         </div>
       </div>
