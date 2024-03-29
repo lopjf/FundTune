@@ -1,0 +1,25 @@
+@import './helpers/__mixins';
+@import './components/landing.scss';
+@import './components/nav.scss';
+
+.App {
+  background-color: #191818;
+  margin: auto;
+  width: clamp(99vw, 98%, 1200px);
+  height: 98vh;
+  overflow: hidden;
+}
+
+.colors {
+  color: #191818;
+  color: #FCB90F;
+
+}
+
+.fonts {
+  font-family: "Jura", sans-serif;
+  font-family: "Istok Web", sans-serif;
+  font-family: "Klee One", cursive;
+  font-family: "Edu NSW ACT Foundation", cursive;
+
+}

@@ -1,0 +1,54 @@
+
+#nav {
+  font-family: "Istok Web", sans-serif;
+  font-size: clamp(1rem, 4vw, 1.2rem);
+  position: absolute;
+  color: white;
+  width: 93%;
+  height: 4rem;
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  #logo {
+    cursor: pointer;
+    #act-logo {
+      width: 60px;
+    }
+  }
+
+  #nav-items {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+
+    li {
+      margin: auto 2rem;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+    li:hover {
+      scale: 1.25;
+      text-decoration: underline;
+    }
+
+    #wallet-btn {
+      transition: all 0.3s ease-in-out;
+      margin: auto 2rem;
+    }
+    #wallet-btn:hover {
+      scale: 1.1;
+      text-decoration: none;
+      background-color: rgba(252, 185, 15, .2);
+      color: white;
+    }
+  }
+
+}
+

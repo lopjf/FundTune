@@ -1,0 +1,6 @@
+@mixin grid-position($colS, $colE, $rowS, $rowE) {
+  grid-column-start: $colS;
+  grid-column-end: $colE;
+  grid-row-start: $rowS;
+  grid-row-end: $rowE;
+}
