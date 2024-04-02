@@ -1,0 +1,48 @@
+
+
+#card {
+    width: clamp(270px, 16vw, 350px);
+    height: 8rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    text-align: center;
+    border: 1px solid #585757;
+    border-radius: 8px;
+    margin: 2.5rem;
+    padding: 1rem;
+
+
+    #artist {
+        @include grid-position(1, 3, 1, 2);
+        @include card-text-position();
+        font-family: "Jura", sans-serif;
+        font-size: clamp(1.2rem, 7vw, 1.4rem);
+    }
+    #city {
+        @include grid-position(1, 2, 2, 3);
+        @include card-text-position();
+    }
+    #raised {
+        @include grid-position(2, 3, 2, 3);
+        @include card-text-position();
+    }
+    #time {
+        @include grid-position(1, 2, 3, 4);
+        @include card-text-position();
+    }
+    #fund-btn {
+        @include grid-position(2, 3, 3, 4);
+        border: 1px solid #39DB35;
+        border-radius: 7px;
+        color: #39DB35;
+        margin: auto;
+        padding: .6rem 1.2rem;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+    #fund-btn:hover {
+        scale: 1.1;
+    }
+
+}

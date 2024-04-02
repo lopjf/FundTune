@@ -4,3 +4,9 @@
   grid-row-start: $rowS;
   grid-row-end: $rowE;
 }
+
+@mixin card-text-position() {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}

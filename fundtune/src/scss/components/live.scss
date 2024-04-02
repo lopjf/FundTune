@@ -1,0 +1,44 @@
+
+#live {
+
+    #live-title {
+        font-family: "Jura", sans-serif;
+        font-size: clamp(1.4rem, 8vw, 2rem);
+        text-align: center;
+    }
+
+    // background-color: #2A2A2A;
+    border-radius: 8px;
+    border: 1px solid #2A2A2A;
+    width: 92%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 8rem;
+    color: white;
+
+    #card-cont {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 80%;
+        overflow-y: scroll;
+    }
+
+    #new-fund {
+        text-align: center;
+        width: clamp(65px, 15vw, 100px);
+        padding: .5rem;
+        color: #39DB35;
+        border: 1px solid #39DB35;
+        border-radius: 6px;
+        margin: auto;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+
+    }
+    #new-fund:hover {
+        scale: 1.1;
+    }
+
+}
+
