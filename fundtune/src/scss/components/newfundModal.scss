@@ -1,0 +1,89 @@
+#new-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 100;
+
+    #new-fund-modal {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        border-radius: 8px;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        color: black;
+        padding: 50px;
+        z-index: 100;
+        text-align: center;
+
+        #new-fund-title {
+            font-family: "Jura", sans-serif;
+            font-size: clamp(1.2rem, 8vw, 1.4rem);
+            
+        }
+        #new-fund-msg {
+            font-family: "Istok Web", sans-serif;
+        }
+
+        #art-block {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            padding: .5rem 0;
+            width: clamp(200px, 20vw, 250px);
+        }
+
+        #cit-block {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            padding: .5rem 0;
+            padding-bottom: 1rem;
+            width: clamp(200px, 20vw, 250px);
+
+        }
+
+        #cost-msg {
+            font-family: "Istok Web", sans-serif;
+        }
+        #new-fund-btns {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            #new-fund-create {
+                cursor: pointer;
+                border: 1px solid #39DB35;
+                color: #39DB35;
+                margin: auto;
+                margin-top: .8rem;
+                padding: .4rem .9rem;
+                border-radius: 6px;
+                transition: all 0.3s ease-in-out;
+            }
+            #new-fund-create:hover {
+                scale: 1.1;
+            }
+
+            #new-fund-close {
+                cursor: pointer;
+                margin: auto;
+                color: red;
+                border: 1px solid red;
+                margin: auto;
+                margin-top: .8rem;
+                padding: .4rem .9rem;
+                border-radius: 6px;
+                transition: all 0.3s ease-in-out;
+            }
+            #new-fund-close:hover {
+                scale: 1.1;
+            }
+        }
+
+
+    }
+}
