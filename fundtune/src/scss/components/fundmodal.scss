@@ -1,0 +1,68 @@
+
+
+#overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 100;
+
+    #fund-modal {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        border-radius: 8px;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 50px;
+        z-index: 100;
+        color: black;
+
+        #modal-title {
+            font-family: "Jura", sans-serif;
+            font-size: clamp(1.2rem, 8vw, 1.4rem);
+        }
+        #modal-msg {
+            font-family: "Istok Web", sans-serif;
+        }
+        #modal-btns {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+
+            #fund-modal-btn {
+                cursor: pointer;
+                border: 1px solid #39DB35;
+                color: #39DB35;
+                margin: auto;
+                margin-top: .8rem;
+                padding: .4rem .9rem;
+                border-radius: 6px;
+                transition: all 0.3s ease-in-out;
+
+            }
+            #fund-modal-btn:hover {
+                scale: 1.1;
+            }
+
+            #close-fm {
+                cursor: pointer;
+                margin: auto;
+                color: red;
+                border: 1px solid red;
+                margin: auto;
+                margin-top: .8rem;
+                padding: .4rem .9rem;
+                border-radius: 6px;
+                transition: all 0.3s ease-in-out;
+            }
+            #close-fm:hover {
+                scale: 1.1;
+            }
+        }
+
+    }
+}
