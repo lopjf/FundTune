@@ -6,27 +6,27 @@ export const data = [
         funds: 22_050
     },
     {
-        artist: "Radiohead",
+        artist: "Muse",
         city: "Berlin",
-        expiration: "44 days",
+        expiration: "29 days",
         funds: 18_150
     },
     {
-        artist: "Sigur Ros",
+        artist: "Muse",
         city: "Vienna",
-        expiration: "50 days",
+        expiration: "29 days",
         funds: 16_650
     },
     {
-        artist: "Hozier",
+        artist: "Muse",
         city: "Budapest",
-        expiration: "56 days",
+        expiration: "29 days",
         funds: 11_100
     },
     {
-        artist: "Electric Light Orchestra",
+        artist: "Muse",
         city: "Copenhagen",
-        expiration: "59 days",
+        expiration: "29 days",
         funds: 13_200
     }
 ]

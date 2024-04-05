@@ -8,9 +8,9 @@ const Card = ({ data }) => {
     <div id="card">
         <div id="artist">{data.artist}</div>
         <div id="city">{data.city}</div>
-        <div id="raised">$ {data.funds.toLocaleString()}</div>
+        <div id="raised">{data.funds.toLocaleString()} Votes</div>
         <div id="time">{data.expiration}</div>
-        <div id="fund-btn" onClick={() => {setIsOpen(true)}}>Fund</div>
+        <div id="fund-btn" onClick={() => {setIsOpen(true)}}>Vote</div>
         <FundModal open={isOpen} setClose={() => setIsOpen(false)} data={data} />
 
     </div>
